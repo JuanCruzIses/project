@@ -1,0 +1,45 @@
+.footer{
+    background-color: #ffffff87;
+    color: black;
+    display: grid;
+    margin: 3% 0%;
+    gap: 10%;
+    padding: 0 0 8%;
+}
+
+.divFooter{
+    padding: 0 3%
+}
+
+.divFooter p{
+    font-family: roboto;
+}
+
+.titleFooter{
+    font-family: roboto;
+    text-decoration: underline;
+}
+
+.buttonFooter{
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.buttonFooter svg{
+    font-size: 2em;
+}
+
+.developedBy{
+    display: flex;
+    height: 10vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.developedBy img{
+    width: 20%;
+}

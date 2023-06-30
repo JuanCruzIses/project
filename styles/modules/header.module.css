@@ -1,0 +1,66 @@
+.containerNavbar{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    position: fixed;
+    z-index: 90000000;
+}
+
+.containerFluid{
+    justify-content: right;
+    position: absolute;
+    right: 5%;
+}
+
+.collapsable{
+    position: absolute;
+    right: -100%;
+    top: 100%;  
+    transition: 1s; 
+    width: 100%;  
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    height: 25vh;
+    padding: 5%;
+    background-color: #212529!important;
+   
+}
+
+.collapsableTrue{
+    transition: 1s;
+    font-size: 17px;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    background-color: #212529!important;
+    height: 25vh;
+    display: flex;
+    padding: 5% 0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.navbarOption{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.PnavbarOption{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-family: roboto;
+}
+
+.optionNavbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PnavbarOption svg{
+    margin-right: 1%;
+}
