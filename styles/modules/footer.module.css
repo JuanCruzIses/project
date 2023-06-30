@@ -2,13 +2,15 @@
     background-color: #ffffff87;
     color: black;
     display: grid;
-    margin: 3% 0%;
-    gap: 10%;
-    padding: 0 0 8%;
+    margin: 0%;
+    border-top: 2px dashed black;
+    padding: 3% 0 0%;
+    height: 45vh;
+    gap: 4%;
 }
 
 .divFooter{
-    padding: 0 3%
+    padding: 0 3%;
 }
 
 .divFooter p{
@@ -32,7 +34,7 @@
 
 .developedBy{
     display: flex;
-    height: 10vh;
+    height: 100%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -40,6 +42,15 @@
     color: white;
 }
 
+.developedBy p{
+    margin: 0;
+}
+
 .developedBy img{
+    width: 100%;
+}
+
+.anchorLogo{
     width: 20%;
+    height: 100%;
 }

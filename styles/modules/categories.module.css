@@ -1,0 +1,61 @@
+.containerMainImage{
+    position: relative;
+    height: 35vh;
+}
+
+.containerMainImage img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.containerCardProduct{
+    display: grid;
+    padding: 0 5%;
+    gap: 5%;
+    margin-bottom: 30vh;
+}
+
+.cardProduct{
+    display: flex;
+    height: 65vh;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardProduct img{
+    height: 80%;
+}
+
+.infoCardProduct{
+    width: 100%;
+    align-items: center;
+    display: grid;
+    height: 13%;
+    grid-template-columns: 4fr 1fr 4fr;
+}
+
+.infoCardProduct p{
+    text-align: center;
+    margin: 0;
+}
+
+.nameProduct{
+    font-weight: 700;
+    font-family: roboto;
+}
+
+.infoCardProduct span{
+    text-align: center;
+}
+
+.cardProduct button{
+    width: 50%;
+    background: none;
+    border-radius: 5px;
+    height: 7%;
+    border: 1px solid black;
+    font-family: roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

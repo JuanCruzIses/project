@@ -1,0 +1,79 @@
+.containerMainImage{
+  position: relative;
+  height: 35vh;
+}
+
+.containerMainImage img{
+  height: 100%;
+  object-fit: cover;
+}
+
+.imgWord{
+  position: absolute;
+  color: white;
+  top: 50%;
+  font-size: 25px;
+  margin: auto;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+
+.shadow{
+  background-color: #00000042;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
+
+.formContact{
+  padding: 0 5%;
+  display: grid;
+  gap: 10%;
+  height: 55vh;
+  margin-bottom: 12vh;
+}
+
+.formContact button{
+  background-color: #101214d9;
+  color: white;
+  border: none;
+  width: 30%;
+  margin: auto;
+  border-radius: 5%;
+}
+
+.msgForm{
+  text-align: center;
+  margin: 5% 0%;
+  font-family: roboto;
+  font-size: 18px;
+}
+
+.segmentForm{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  flex-direction: column;
+}
+
+.segmentForm label{
+  top: -14px;
+  position: absolute;
+  background-color: white;
+  left: 5px;
+  padding: 0 1%;
+}
+
+.segmentForm input{
+  border-radius: 5px;
+  padding: 0.5% 3%;
+  border: 1px solid #0000004f;
+}
+
+.segmentForm textarea{
+  max-height: 100px;
+  border: 1px solid #0000004f;
+  min-height: 50px;
+}
