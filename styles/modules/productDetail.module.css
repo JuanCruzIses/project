@@ -1,0 +1,260 @@
+
+
+.navbarDetailPage{
+    display: flex;
+    align-items: center;
+    border: 1px solid #00000038;
+    height: 6vh;
+    border-right: none;
+    border-left: none;
+}
+
+.navbarDetailPage a{
+    border: none;
+    color: black;
+    height: 100%;
+    background: none;
+    font-size: 20px;
+    border-right: 1px solid #00000038;
+    align-items: center;
+    display: flex;
+}
+
+.navbarDetailPage a svg{
+    font-size: 25px;
+    height: 100%;
+}
+
+.navbarDetailPage p{
+    width: 100%;
+    padding: 0 1%;
+    margin: 0;
+    font-size: 18px;
+    font-family: roboto;
+}
+
+.containerImageProduct{
+    height: 45vh;
+}
+
+.containerSlidesImageProduct{
+    height: 100%;
+}
+
+.containerInfo{
+    padding: 1% 2%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 5%;
+    height: auto;
+    margin: 0% 0 5%;
+}
+
+.nameProduct{
+    font-family: roboto;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 100%;
+}
+
+.measureContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr 2fr;
+    margin-bottom: 3%;
+    width: 100%;
+    font-family: roboto;
+    font-size: 15px;
+    height: 40vh;
+}
+
+.containerInfo p{
+    display: flex;
+    margin: 0;
+    align-items: center;
+    width: 100%;
+}
+
+.productRequestText{
+    grid-column: 1/3;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.descriptionProduct{
+    align-items: center;
+    grid-column: 1/3;
+    width: 100%;
+    box-shadow: 0px 0px 2px;
+    display: flex;
+    margin: 1% auto 0;
+    padding: 2% 2%;
+    border-radius: 3px;
+    font-size: 15px;
+    text-align: center;
+    font-family: roboto;
+}
+
+.descriptionProduct li{
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+}
+
+.whatsAppLink{
+    text-decoration: none;
+    color: green!important;
+    font-weight: 500;
+    display: flex;
+    border: 2px solid green;
+    width: 70%;
+    min-width: 206px;
+    padding: 1% 3%;
+    border-radius: 0px;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+
+.whatsAppLink svg{
+    color: green;
+    margin-left: 1%;
+    font-size: 22px;
+}
+
+.whatsAppLink:hover{
+    background-color: green;
+    color: white;
+}
+
+.whatsAppLink:hover span{
+    color: white;
+}
+
+
+.whatsAppLink:hover svg{
+    background-color: green;
+    color: white;
+}
+
+.shadow{
+    background-color: #00000038;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    filter: blur(100px)!important
+}
+
+.containerImagePD{
+    height: 60vh;
+}
+
+.containerImagePD div img{
+    height: 60vh;
+    object-fit: scale-down;
+}
+
+.cardImage{
+    display: block;
+    height: 60vh;
+}
+
+.cardImage img{
+    object-fit: scale-down;
+    height: 100%;
+}
+
+.otherProductsContainerCards{
+    padding: 3% 2% 7%;
+    height: auto;
+    color: white;
+    margin: 10vh 0 0;
+    background-color: #212529;
+}
+
+.otherProductsContainerCards p{
+    padding-left: 1%;
+}
+
+.containerSlideOtherProductsCards{
+    height: 40vh;
+    overflow: hidden;
+    position: relative;
+    display: grid;
+    width: 100%;
+    margin: 5% auto 0%;
+}
+
+.containerSlideOtherProductsCards a{
+    height: 40vh;
+    text-decoration: none;
+    color: black;
+}
+
+.otherProductsCard{
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.otherProductsCard img{
+    height: 80%;
+    width: 100%;
+    object-fit: scale-down;
+}
+
+.otherProductsCard h5{
+    align-items: center;
+    height: 15%;
+    display: flex;
+    border-top: 1px solid #00000014;
+    justify-content: center;
+}
+
+@media(min-width:768px){
+.carousel50{
+    width: 50%;
+    display: inline-block;
+}
+
+.measureContainer{
+    height: 65%;
+    margin: 0%;
+}
+
+.containerImagePD div{
+    height: 100%;
+}
+
+.containerImagePD div img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.containerInfo{
+    position: absolute;
+    top: 14vh;
+    height: 60vh;
+    width: 50%;
+    gap: 0%;
+    right: 0;
+    margin: 0;
+}
+
+.otherProductsContainerCards p{
+    font-size: 21px;
+}
+
+.otherProductsContainerCards{
+    padding: 3% 2% 7%;
+    margin-top: -5px;
+}
+}

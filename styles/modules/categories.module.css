@@ -1,6 +1,28 @@
+.shadow{
+    background-color: #00000042;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    filter: blur(100px);
+}
+
+.imgWord{
+    position: absolute;
+    color: white;
+    top: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    right: 0;
+    left: 0;
+}
+
 .containerMainImage{
     position: relative;
-    height: 35vh;
+    height: 50vh;
 }
 
 .containerMainImage img{
@@ -9,34 +31,47 @@
 }
 
 .containerCardProduct{
-    display: grid;
+    display: flex;
     padding: 0 5%;
-    gap: 5%;
-    margin-bottom: 30vh;
+    flex-wrap: wrap;
+}
+
+.containerCardProduct select{
+    margin: 5vh 0;
 }
 
 .cardProduct{
+    width: 100%;
     display: flex;
-    height: 65vh;
+    height: 60vh;
+    margin: 0 auto 10vh;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .cardProduct img{
-    height: 80%;
+    height: 65%;
+    width: 100%;
+    object-fit: contain;
 }
 
 .infoCardProduct{
+    font-family: roboto;
+    font-size: 20px;
     width: 100%;
+    margin: 0%;
     align-items: center;
-    display: grid;
-    height: 13%;
-    grid-template-columns: 4fr 1fr 4fr;
+    display: flex;
+    height: 18%;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .infoCardProduct p{
     text-align: center;
     margin: 0;
+    width: 100%;
 }
 
 .nameProduct{
@@ -48,8 +83,9 @@
     text-align: center;
 }
 
-.cardProduct button{
+.cardProduct a{
     width: 50%;
+    margin: auto;
     background: none;
     border-radius: 5px;
     height: 7%;
@@ -58,4 +94,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: black;
+    text-decoration: none;
+}
+
+.cardProduct a:hover{
+    background-color: #101214d9;
+    color: white;
+}
+
+@media(min-width: 768px){
+.containerCardProduct{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2% 5%;
+    padding: 0 3%;
+}
+}
+
+@media(min-width: 1024px){
+.containerCardProduct{
+    grid-template-columns: 1fr 1fr 1fr;
+}
 }

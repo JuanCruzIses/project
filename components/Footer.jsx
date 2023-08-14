@@ -10,7 +10,7 @@ export default function Footer(){
                 <h4 className={styles.titleFooter}>Contacto</h4>
                 <p><BiSolidPhone/>1123883960</p>
                 <p><MdEmail/>juancruzises@gmail.com</p>
-                <p><MdLocationOn/>Senillosa 77, Caballito</p>
+                <p><MdLocationOn/>Nueva Pompeya, CABA</p>
             </div>
             <div className={styles.divFooter}>
                 <h4 className={styles.titleFooter}>Redes</h4>
@@ -26,9 +26,9 @@ export default function Footer(){
                 </Link>
             </div>
             <div className={styles.developedBy}>
-                <p>Developed by</p>
                 <Link legacyBehavior href="https://juancruzises-portfolio.vercel.app/">
                     <a className={styles.anchorLogo} target="_blank">
+                        Developed by
                         <img src="/images/logo512.png"></img>
                     </a>
                 </Link>

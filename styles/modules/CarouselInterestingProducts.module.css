@@ -1,0 +1,71 @@
+.containerCards{
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.button{
+    position: absolute;
+    top: 0;
+    background: black;
+    bottom: 0;
+    width: 11%;
+    height: 21%;
+    margin: auto;
+    border: 1.5px solid white;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 7px;
+    padding: 0;
+}
+
+.button svg{
+    color: white;
+}
+
+.prevProduct{
+    left: 0px;
+}
+
+.nextProduct{
+    right: 0px;
+}
+
+
+@media(min-width: 540px){
+.containerFlex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.containerCards{
+    width: 85%;
+}
+
+.containerCards div a{
+    height: 40vh;
+    width: 45%;
+    margin: 0 2.5%;
+    display: inline-block;
+}
+
+.containerAnchorTags a{
+    width: 40%;
+}
+
+.button{
+    width: 6%;
+}
+}
+
+@media(min-width: 900px){
+    .containerCards div a{
+        height: 40vh;
+        width: 35%;
+        margin: 0 6%;
+        display: inline-block;
+    }
+    
+}

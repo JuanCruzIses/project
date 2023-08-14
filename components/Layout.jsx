@@ -11,18 +11,16 @@ import Footer from './Footer';
 
 
 
-export default function Layout({ children, home }) {
+export default function Layout({ children }) {
   return (
     <div className={styles.firstContainer}>
-      <Head>
-      </Head>
       <header className={styles.header}>
           <Navbar/>
       </header>
       
-      <main>
+      {/* <main style={{height: "auto"}}> */}
         {children}
-      </main>
+      {/* </main> */}
     
       <Footer/>
     </div>

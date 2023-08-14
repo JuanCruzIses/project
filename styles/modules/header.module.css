@@ -3,12 +3,30 @@
     grid-template-columns: 1fr 4fr;
     position: fixed;
     z-index: 90000000;
+    height: 10vh;    
+    width: 100vw;
+    background-color: #101214d9;
+}
+
+.containerNavbar a{
+    height: 10vh;
+}
+
+.containerNavbar a:hover{
+    color: white;
+}
+
+.containerNavbar a img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .navbarSection{
     display: flex;
     justify-content: right;
     padding: 0 5%;
+    width: 100%;
 }
 
 .navbarTogglerButton{
@@ -24,7 +42,7 @@
     justify-content: center;
     align-items: center;
     display: grid;
-    height: 30vh;
+    height: auto;
     padding: 5%;
     background-color: #212529!important;
    
@@ -36,9 +54,9 @@
     position: absolute;
     top: 100%;
     right: 0;
-    width: 70%;
+    width: 100%;
     background-color: #212529!important;
-    height: 30vh;
+    height: auto;
     display: flex;
     padding: 5% 0;
     align-items: center;
@@ -69,4 +87,72 @@
 
 .PnavbarOption svg{
     margin-right: 1%;
+}
+
+@media (min-width:768px) {
+.containerNavbar{
+    display: flex;
+    flex-wrap: wrap;
+    background: #363737;
+    flex-direction: column;
+    height: 8vh;
+}
+
+.containerNavbar a{
+    width: 15%;
+    height: 100%;
+    margin: 0;
+    border-bottom: 1px solid white;
+    text-align: center;
+    background-color: #363737;
+}
+
+.containerNavbar a img{
+    /* border: 1px solid white; */
+    width: 100%;
+    object-fit: contain;
+}
+
+.navbarSection{
+    height: 100%;
+    width: 85%;
+    background-color: #363737!important;
+    padding: 0;
+}
+
+.collapsable{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    position: initial;
+    padding: 0;
+}
+
+.PnavbarOption{
+    height: 100%;
+    margin: 0;
+}
+
+.PnavbarOption a{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid #ffff; */
+}
+
+.PnavbarOption a:hover{
+    color: white;
+    background: #575656;
+}
+
+.containerFluid{
+    display: none;
+}
+
+}
+
+@media (min-width:1024px) {
+.containerNavbar{
+    position: inherit;
+}
 }

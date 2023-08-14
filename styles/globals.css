@@ -1,38 +1,26 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-  Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+header{
+  height: 10vh;
 }
 
-a {
-  color: white;
-  text-decoration: none;
+body{
+  overflow: visible;
 }
 
-* {
-  box-sizing: border-box;
+main{
+  padding-top: 10vh;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+.firstContainer {
+  overflow: hidden;
 }
 
-h1,
-h2,
-p,
-ul {
-  margin: 0;
+.header {
+  background-color: #101214d9;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-ul {
-  padding: 0;
-  list-style: none;
-}
-
-button {
-  padding: 0.5rem 1rem;
-  font-weight: bold;
+.backToHome {
+  margin: 3rem 0 0;
 }

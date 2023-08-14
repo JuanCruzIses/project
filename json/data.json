@@ -1,0 +1,82 @@
+[
+    {
+        "id": "1",
+        "nombre": "Mesa auxiliar (M)",
+        "detalle": "Madera con Cetol",
+        "descripcion": "Mesa auxiliar en madera para interior o exterior. Cuenta con un estante inferior, ruedas en todas sus patas y un barral. Barnizada en Cetol de exterior para mayor protección y durabilidad.",
+        "medidas": "1.20 m x 60 cm - Altura: 80 cm",
+        "imagen1": "mesaAuxiliarMadera1.jpeg",
+        "imagen2": "mesaAuxiliarMadera2.jpg",
+        "precio":"20.000",
+        "categoria": "Hogar",
+        "nombreRuta": "mesaAuxiliarMadera",
+        "nombreRutaCategoria": "hogar"
+    },
+    {
+        "id": "2",
+        "nombre": "Mesa auxiliar (H)",
+        "detalle": "Madera y hierro",
+        "descripcion": "Mesa auxiliar de interior en hierro y madera para cocina, parrilla o quincho. Cuenta con ruedas con freno y tres estantes.",
+        "medidas": "89 cm x 90 cm - Profundidad: 50 cm",
+        "imagen1": "mesaAuxiliarHierro1.jpeg",
+        "imagen2": "mesaAuxiliarHierro2.png",
+        "precio": "20.000",
+        "categoria": "Hogar",
+        "nombreRuta": "mesaAuxiliarHierro",
+        "nombreRutaCategoria": "hogar"
+    },
+    {
+        "id": "3",
+        "nombre": "Jardinera - Huerta",
+        "detalle": "Cajón bajo",
+        "descripcion": "Este es un texto generico a modo de muestra para la descripcion de este producto y su posicionamiento en la pagina web.",
+        "medidas": "1 m x 30 cm - Profundidad: 30 cm - Altura: 49 cm",
+        "imagen1": "jardineraBaja1.jpeg",
+        "imagen2": "jardineraBaja2.jpeg",
+        "imagen3": "jardineraBaja3.jpeg",
+        "precio": "10.000",
+        "categoria": "Jardín",
+        "nombreRuta": "jardineraBaja",
+        "nombreRutaCategoria": "jardin"
+    },
+    {
+        "id": "4",
+        "nombre": "Jardinera - Huerta",
+        "detalle": "Cajón alto",
+        "descripcion": "Este es un texto generico a modo de muestra para la descripcion de este producto y su posicionamiento en la pagina web",
+        "medidas": "1 m x 30 cm - Profundidad: 30 cm - Altura: 80 cm",
+        "imagen1": "jardineraAlta1.jpeg",
+        "imagen2": "jardineraAlta2.jpeg",
+        "imagen3": "jardineraAlta3.jpeg",
+        "precio": "13.000",
+        "categoria": "Jardín",
+        "nombreRuta": "jardineraAlta",
+        "nombreRutaCategoria": "jardin"
+    },
+    {
+        "id": "5",
+        "nombre": "Recibidor de pie",
+        "detalle": "Madera y hierro",
+        "descripcion": "Gran recibidor de pie, ideal para poder dejar todo tipo de cosas al ingresar al hogar (mochilas, llaves, bolsas, paraguas, entre otros).",
+        "medidas": "1,20 mts x 60 cm - Profundidad: 60 cm",
+        "imagen1": "recibidor1.jpg",
+        "imagen2": "recibidor2.jpg",
+        "imagen3": "recibidor3.png",
+        "precio": "18.000",
+        "categoria": "Hogar",
+        "nombreRuta": "recibidor",
+        "nombreRutaCategoria": "hogar"
+    },
+    {
+        "id": "6",
+        "nombre": "Perchero",
+        "detalle": "Madera y hierro",
+        "descripcion": "Util perchero para poder colgar tus abrigos al ingresar al hogar.",
+        "medidas": "40 cm x 20 cm",
+        "imagen1": "perchero1.png",
+        "precio": "9.500",
+        "categoria": "Hogar",
+        "nombreRuta": "perchero",
+        "nombreRutaCategoria": "hogar"
+    }
+]

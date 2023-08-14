@@ -30,9 +30,10 @@
 .formContact{
   padding: 0 5%;
   display: grid;
+  grid-gap: 10%;
   gap: 10%;
-  height: 55vh;
-  margin-bottom: 12vh;
+  height: 85vh;
+  margin: 10vh 0;
 }
 
 .formContact button{
@@ -54,6 +55,8 @@
 .segmentForm{
   display: flex;
   flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
   position: relative;
   flex-direction: column;
 }
@@ -68,7 +71,7 @@
 
 .segmentForm input{
   border-radius: 5px;
-  padding: 0.5% 3%;
+  padding: 1.5% 3%;
   border: 1px solid #0000004f;
 }
 
@@ -77,3 +80,41 @@
   border: 1px solid #0000004f;
   min-height: 50px;
 }
+
+@media(min-width: 768px){
+.segmentForm{
+  width: 70%;
+  margin: auto;
+}
+
+.formContact{
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 35% 0;
+  margin: 5% 0 13%;
+  height: auto;
+}
+
+.segmentForm:nth-child(4){
+    grid-column: 2/3;
+    grid-row: 1/3;
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.formContact button{
+  width: 65%;
+  border-radius: 0;
+}
+
+}
+
+@media(min-width: 1024px){
+  .segmentForm{
+    width: 60%;
+    margin: auto;
+  }
+  
+  
+  }
