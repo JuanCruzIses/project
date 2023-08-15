@@ -5,7 +5,7 @@ import Head from 'next/head';
 import {MdKeyboardArrowLeft, MdWhatsapp} from 'react-icons/md'
 import Link from 'next/link';
 import styles from "../../../../styles/modules/productDetail.module.css"
-
+import "../../../../api"
 import useSWR from 'swr';
 import CarouselInterestingProducts from '../../../../components/CarouselInterestingProducts';
 const fetcher = (url) => fetch(url).then((res) => res.json());
@@ -13,7 +13,7 @@ const fetcher = (url) => fetch(url).then((res) => res.json());
 export default function ProductDetail({}) {
   const router = useRouter()
   const id = router.query.id
-  const { data, error } = useSWR('/api/staticdata', fetcher);
+  const { data, error } = useSWR('../../../../api/staticdata', fetcher);
   
   if (error) return(
   <Layout>

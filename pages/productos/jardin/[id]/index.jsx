@@ -13,7 +13,7 @@ const fetcher = (url) => fetch(url).then((res) => res.json());
 export default function ProductDetail() {
   const router = useRouter()
   const id = router.query.id
-  const { data, error } = useSWR('/api/staticdata', fetcher);
+  const { data, error } = useSWR('../../../../api/staticdata', fetcher);
 
   if (error) return (
     <Layout>
