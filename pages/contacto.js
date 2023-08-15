@@ -6,7 +6,7 @@ import { Formik } from 'formik'
 import React, { useState } from "react"
 import Spinner from "../components/Spinner"
 
-export default function Jardin(){
+export default function Contacto(){
     const [error, setError] = useState(null)
     const [emailOk, setEmailOk] = useState(undefined)
     const [sendMensagge, useSendMensagge] =  useState(false)
@@ -35,7 +35,7 @@ export default function Jardin(){
             </Head>
             <main>
                 <div className={styles.containerMainImage}>
-                    <img src="/images/contactoBanner.png" className="d-block w-100" alt="..."></img>
+                    <img src="/images/contacto.jpg" className="d-block w-100" alt="..."></img>
                     <div className={styles.shadow}></div>
                     <h5 className={styles.imgWord}>Contactanos</h5>
                 </div>

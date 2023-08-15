@@ -6,7 +6,6 @@ import Spinner from "./Spinner";
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
 export default function ProductList(){
-
 const { data, error } = useSWR('/api/staticdata', fetcher);  
 if (error) return(
    <div>
