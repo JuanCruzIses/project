@@ -3,6 +3,7 @@ import styles from '../styles/modules/header.module.css'
 import { useState } from "react"
 import {useRouter} from 'next/router'
 import {FaHome} from "react-icons/fa"
+import { GiPorcelainVase } from "react-icons/gi"
 import {IoMdMail} from "react-icons/io"
 import {PiPottedPlantFill, PiOfficeChairFill} from "react-icons/pi"
 
@@ -42,8 +43,8 @@ export default function Navbar(){
                     </p>
                     <p className={styles.PnavbarOption}>
                         <Link className={styles.navbarOption} href='/productos/oficina'>
-                            <PiOfficeChairFill/>
-                            Oficina
+                            <GiPorcelainVase/>
+                            Deco
                         </Link>
                     </p>
                     <p className={styles.PnavbarOption}>
