@@ -66,6 +66,10 @@
     font-size: 13px;
 }
 
+.anchorLogo:hover{
+    color: white;
+}
+
 @media (min-width:768px) {
 .divFooter{
     width: 50%;
