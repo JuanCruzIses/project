@@ -8,8 +8,8 @@ export default function Footer(){
         <footer className={styles.footer}>
             <div className={styles.divFooter}>
                 <h4 className={styles.titleFooter}>Contacto</h4>
-                <p><BiSolidPhone/>1123883960</p>
-                <p><MdEmail/>juancruzises@gmail.com</p>
+                <p><BiSolidPhone/>1151345143</p>
+                <p><MdEmail/>info.toutenun@gmail.com</p>
                 <p><MdLocationOn/>Nueva Pompeya, CABA</p>
             </div>
             <div className={styles.divFooter}>

@@ -42,7 +42,7 @@ export default function Navbar(){
                         </Link>
                     </p>
                     <p className={styles.PnavbarOption}>
-                        <Link className={styles.navbarOption} href='/productos/oficina'>
+                        <Link className={styles.navbarOption} href='/productos/deco'>
                             <GiPorcelainVase/>
                             Deco
                         </Link>
