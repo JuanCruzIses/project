@@ -1,3 +1,4 @@
+'use client'
 import Link from "next/link"
 import styles from '../styles/modules/header.module.css'
 import { useState } from "react"
@@ -17,8 +18,9 @@ export default function Navbar(){
         clicked && setClicked(false)
     }
 
+
     return(
-        <div className={styles.containerNavbar}>
+        <div id="navbar" className={styles.containerNavbar}>
             <Link onClick={clickLogo} href="/">
                 <img className={styles.logoImg} src="/images/logo.png"></img>
             </Link>

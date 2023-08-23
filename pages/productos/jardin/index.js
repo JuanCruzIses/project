@@ -45,7 +45,7 @@ export default function Jardin(){
                 <div className={stylesIndex.shadow}></div>
                 <h5 className={styles.imgWord}>Jardín</h5>
             </div>
-            <h2 className={stylesIndex.slogan}>Crea un paraíso al aire libre con nuestros muebles de jardín</h2>
+            <h2 id="referenceToNav" className={stylesIndex.slogan}>Crea un paraíso al aire libre con nuestros muebles de jardín</h2>
             
             <section className={styles.containerCardProduct}>
                 {/* <select className={styles.selectSC}>

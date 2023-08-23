@@ -1,12 +1,22 @@
 
-
 .firstContainer {
   overflow: hidden;
+}
+
+#containerList{
+  margin-top: 10vh;
 }
 
 .header {
   background-color: #101214d9;
   height: 10vh;
+  transition: 0.15s ease-in ;
+  position: sticky;
+  z-index: 90000000;
+}
+
+.containerOp{
+  opacity: 0
 }
 
 .backToHome {

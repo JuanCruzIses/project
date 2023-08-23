@@ -30,7 +30,7 @@ export default function Hogar(){
                 <div className={styles.shadow}></div>
                 <h5 className={styles.imgWord}>Hogar</h5>
             </div>
-            <h2 className={stylesIndex.slogan}>Tu hogar, tu estilo, nuestros muebles</h2>
+            <h2 id="referenceToNav" className={stylesIndex.slogan}>Tu hogar, tu estilo, nuestros muebles</h2>
             
             <section className={styles.containerCardProduct}>
             {!data ?

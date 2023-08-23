@@ -41,11 +41,11 @@ export default function Deco(){
             <title>H - Deco</title>
             </Head>
             <div className={styles.containerMainImage}>
-                <img src="/images/jardin.jpg" className="d-block w-100" alt="..."></img>
+                <img src="/images/banner1.jpg" className="d-block w-100" alt="..."></img>
                 <div className={stylesIndex.shadow}></div>
                 <h5 className={styles.imgWord}>Deco</h5>
             </div>
-            <h2 className={stylesIndex.slogan}>Crea un paraíso al aire libre con nuestros muebles de jardín</h2>
+            <h2 id="referenceToNav" className={stylesIndex.slogan}>Crea un paraíso al aire libre con nuestros muebles de jardín</h2>
             
             <section className={styles.containerCardProduct}>
                 {dataParsed.map(product=>

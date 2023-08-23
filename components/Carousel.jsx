@@ -20,7 +20,7 @@ export default function Carousel(){
             </div>
           </div>
           <div className="carousel-item">
-            <img src="/images/living.png" className="d-block w-100" alt="..."></img>
+            <img src="/images/oficina.png" className="d-block w-100" alt="..."></img>
             <div className={styles.shadow}></div>
             <h5 className={styles.imgWord}>Diseño</h5>
             <div className={styles.complementoSlider}>

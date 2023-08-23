@@ -22,7 +22,7 @@ if (!data) return(
 const dataParsed = JSON.parse(data)  
 
 return(
-    <div className={styles.productList}>
+    <div id="referenceToNav" className={styles.productList}>
         <h3>Los más pedidos</h3>
         <div className={styles.containerListItems}>
             {dataParsed.map(product => product &&
