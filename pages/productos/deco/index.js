@@ -45,7 +45,7 @@ export default function Deco(){
                 <div className={styles.shadow}></div>
                 <h5 className={styles.imgWord}>Deco</h5>
             </div>
-            <h2 id="referenceToNav" className={stylesIndex.slogan}>Crea un paraíso al aire libre con nuestros muebles de jardín</h2>
+            <h2 id="referenceToNav" className={stylesIndex.slogan}>Detalles que transforman tu espacio</h2>
             
             <section className={styles.containerCardProduct}>
                 {dataParsed.map(product=>
