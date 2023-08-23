@@ -18,6 +18,14 @@
     text-decoration: none;
 }
 
+.divFooter a button{
+    color: black;
+}
+
+.divFooter a button svg{
+    color: black;
+}
+
 .divFooter p{
     font-family: roboto;
 }

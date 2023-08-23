@@ -16,7 +16,8 @@
 }
 
 .containerOp{
-  opacity: 0
+  opacity: 0;
+  transition: 0.15s ease-in ;
 }
 
 .backToHome {
