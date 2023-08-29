@@ -33,7 +33,8 @@
 .slogan{
   font-family: robot;
   text-align: center;
-  margin: 5%;
+  padding: 10% 5% 10%;
+  margin: 0;
 }
 
 .secondSlogan{
@@ -51,7 +52,8 @@
 }
 
 .productList h3{
-  margin-bottom: 5%;
+  margin-bottom: 10%;
+  margin-top: 5%;
 }
 
 .containerListItems{
@@ -237,4 +239,14 @@
 .secondSlogan{
   margin-top: 12%;
 }
+
+.productList h3{
+  margin-bottom: 5%;
+  margin-top: 0;
+}
+
+.slogan{
+  margin: 5%;
+}
+
 }
