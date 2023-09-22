@@ -10,6 +10,7 @@
 
 .containerNavbar a{
     height: 10vh;
+    font-size: 16px;
 }
 
 .containerNavbar a:hover{

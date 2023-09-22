@@ -41,7 +41,7 @@ export default function Deco(){
             <title>H - Deco</title>
             </Head>
             <div className={styles.containerMainImage}>
-                <img src="/images/banner1.jpg" className="d-block w-100" alt="..."></img>
+                <img src="/images/foto1.jpg" className="d-block w-100" alt="..."></img>
                 <div className={styles.shadow}></div>
                 <h5 className={styles.imgWord}>Deco</h5>
             </div>

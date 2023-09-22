@@ -11,7 +11,7 @@ export default function Carousel(){
         </div>
         <div className={`carousel-inner ${styles.containerCardsCarousel}`}>
           <div className={`carousel-item active`}>
-            <img src="/images/oficina.png" className="d-block w-100" alt="..."></img>
+            <img src="/images/foto3.jpg" className="d-block w-100" alt="..."></img>
             <div className={styles.shadow}></div>
             <h5 className={styles.imgWord}>Calidad</h5>
             <div className={styles.complementoSlider}>
@@ -20,7 +20,7 @@ export default function Carousel(){
             </div>
           </div>
           <div className="carousel-item">
-            <img src="/images/living.png" className="d-block w-100" alt="..."></img>
+            <img src="/images/foto5.jpg" className="d-block w-100" alt="..."></img>
             <div className={styles.shadow}></div>
             <h5 className={styles.imgWord}>Diseño</h5>
             <div className={styles.complementoSlider}>
@@ -29,7 +29,7 @@ export default function Carousel(){
             </div>
           </div>
           <div className="carousel-item">
-            <img src="./images/jardin.png" className="d-block w-100" alt="..."></img>
+            <img src="./images/foto6.jpg" className="d-block w-100" alt="..."></img>
             <div className={styles.shadow}></div>
             <h5 className={styles.imgWord}>Confort</h5>
             <div className={styles.complementoSlider}>

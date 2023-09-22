@@ -26,7 +26,7 @@ export default function Hogar(){
             <title>H - Hogar</title>
             </Head>
             <div className={styles.containerMainImage}>
-                <img src="/images/hogar.jpg" className="d-block w-100" alt="..."></img>
+                <img src="/images/foto3.jpg" className="d-block w-100" alt="..."></img>
                 <div className={styles.shadow}></div>
                 <h5 className={styles.imgWord}>Hogar</h5>
             </div>

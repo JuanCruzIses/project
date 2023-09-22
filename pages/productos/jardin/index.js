@@ -41,7 +41,7 @@ export default function Jardin(){
             <title>H - Jardín</title>
             </Head>
             <div className={styles.containerMainImage}>
-                <img src="/images/jardin.jpg" className="d-block w-100" alt="..."></img>
+                <img src="/images/foto5.jpg" className="d-block w-100" alt="..."></img>
                 <div className={styles.shadow}></div>
                 <h5 className={styles.imgWord}>Jardín</h5>
             </div>

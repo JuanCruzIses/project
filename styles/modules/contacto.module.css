@@ -48,7 +48,6 @@
 .msgForm{
   text-align: center;
   margin: 5% 0%;
-  font-family: roboto;
   font-size: 18px;
   padding: 0 5%;
 }
@@ -80,6 +79,7 @@
 .segmentForm textarea{
   width: 100%;
   max-height: 110px;
+  padding: 2%;
   border: 1px solid #0000004f;
   min-height: 70px;
 }
@@ -114,10 +114,13 @@
 }
 
 @media(min-width: 1024px){
-  .segmentForm{
-    width: 60%;
-    margin: auto;
-  }
+.segmentForm{
+  width: 60%;
+  margin: auto;
+}
+
+.msgForm{
+  font-size: 22px;
+}
   
-  
-  }
+}

@@ -1,13 +1,13 @@
+*{
+  font-family: 'Rubik', sans-serif!important;
+}
+
 header{
   height: 10vh;
 }
 
 body{
   overflow: visible;
-}
-
-main{
-  padding-top: 10vh;
 }
 
 .firstContainer {
